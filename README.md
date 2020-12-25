@@ -39,7 +39,7 @@ Go to your local web server root directory and add this php script :
 ?>
 ```
 
-You might encounter some problems with the android emulator, since it does not know what localhost is.
+You might encounter some problems with the android emulator, since it does not know what "localhost" is.
 Replace localhost with 10.0.2.2 in the url like so:
 ```JAVA
 String url = "http://10.0.2.2/addUser.php?username="+username+"&password="+password";
